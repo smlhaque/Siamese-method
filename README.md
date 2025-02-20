@@ -9,5 +9,5 @@ A method for constructing magic squares of order $n=2k+1$ (odd ordered). For mor
 A method for constructing magic squares of order $n=4k+2$ (singly even ordered). For more info, visit: https://en.wikipedia.org/wiki/Strachey_method_for_magic_squares .\
 <br/>
 **<ins>3) Modified Crossed-diagonal Method:</ins>**
-A method for constructing magic squares of order $n=4k$ (doubly even ordered). For more info, visit: https://www.1728.org/magicsq2.htm . <br/>
+A method for constructing magic squares of order $n=4k$ (doubly even ordered). For more info, visit: https://www.1728.org/magicsq2.htm . <br/><br/>
 (Note: The code is not fully optimized as it focuses more on implementing the process than getting to the final result.)
