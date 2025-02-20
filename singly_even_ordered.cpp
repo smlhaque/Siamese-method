@@ -91,7 +91,7 @@ int main() {
         for (int j=0; j<n; j++){
             cout << magic_square[i][j] << "    ";
         }
-        cout << "\n";
+        cout << "\n" << endl;
     }
     
     return 0;
