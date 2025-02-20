@@ -70,13 +70,13 @@ int main() {
         smaller_gridB[k-1-i][j] = local_var2;
         }
     }
-    local_var3 = smaller_gridA[k/2+1][0];
-    smaller_gridA[k/2+1][0] = smaller_gridD[k/2+1][0];
-    smaller_gridD[k/2+1][0] = local_var3;
+    local_var3 = smaller_gridA[k/2][0];
+    smaller_gridA[k/2][0] = smaller_gridD[k/2][0];
+    smaller_gridD[k/2][0] = local_var3;
     
-    local_var4 = smaller_gridA[k/2+1][k/2+1];
-    smaller_gridA[k/2+1][k/2+1] = smaller_gridD[k/2+1][k/2+1];
-    smaller_gridD[k/2+1][k/2+1] = local_var4;
+    local_var4 = smaller_gridA[k/2][k/2];
+    smaller_gridA[k/2][k/2] = smaller_gridD[k/2][k/2];
+    smaller_gridD[k/2][k/2] = local_var4;
     
     for (int i=0; i<k; i++){
         for (int j=0; j<k; j++){
